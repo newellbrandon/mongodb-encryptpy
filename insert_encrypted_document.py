@@ -30,7 +30,7 @@ kms_providers = {
 # end-kmsproviders
 
 # start-schema
-dek_id = b"jM0slpkbSPOVTfv0FOe62g=="
+dek_id = b"<Output of make_data_key.py>"
 json_schema = {
     "bsonType": "object",
     "encryptMetadata": {"keyId": [Binary(base64.b64decode(dek_id), UUID_SUBTYPE)]},
