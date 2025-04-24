@@ -1,0 +1,26 @@
+# Temporary notepad for formatted notes
+.SCRATCH
+
+# Python-related files
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.egg-info/
+*.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Node.js-related files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+master-key.txt
+mongocryptd.pid
