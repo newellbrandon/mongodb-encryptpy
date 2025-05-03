@@ -1,3 +1,5 @@
 pymongo
 pymongo[encryption]
 pygments
+python-dotenv
+colorama
